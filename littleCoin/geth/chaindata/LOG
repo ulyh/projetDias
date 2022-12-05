@@ -1,0 +1,41 @@
+=============== Dec 5, 2022 (CET) ===============
+15:11:53.593398 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:11:53.610766 db@open opening
+15:11:53.613291 version@stat F·[] S·0B[] Sc·[]
+15:11:53.618126 db@janitor F·2 G·0
+15:11:53.618319 db@open done T·7.525584ms
+15:11:53.670159 db@close closing
+15:11:53.670604 db@close done T·433.25µs
+=============== Dec 5, 2022 (CET) ===============
+15:26:01.145476 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:26:01.146624 version@stat F·[] S·0B[] Sc·[]
+15:26:01.146674 db@open opening
+15:26:01.147116 journal@recovery F·1
+15:26:01.147935 journal@recovery recovering @1
+15:26:01.152664 memdb@flush created L0@2 N·11 S·663B "H\xf9\xbd..T0T,v4":"r\x00\x00..T0T,v6"
+15:26:01.153030 version@stat F·[1] S·663B[663B] Sc·[0.25]
+15:26:01.169289 db@janitor F·3 G·0
+15:26:01.169345 db@open done T·22.653875ms
+15:26:01.185673 db@close closing
+15:26:01.186215 db@close done T·542.666µs
+=============== Dec 5, 2022 (CET) ===============
+15:27:58.070200 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:27:58.070386 version@stat F·[1] S·663B[663B] Sc·[0.25]
+15:27:58.070407 db@open opening
+15:27:58.070780 journal@recovery F·1
+15:27:58.072408 journal@recovery recovering @3
+15:27:58.114547 version@stat F·[1] S·663B[663B] Sc·[0.25]
+15:27:58.132416 db@janitor F·3 G·0
+15:27:58.132451 db@open done T·62.03525ms
+15:29:59.510227 db@close closing
+15:29:59.510494 db@close done T·266.083µs
+=============== Dec 5, 2022 (CET) ===============
+15:30:42.982871 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+15:30:42.983029 version@stat F·[1] S·663B[663B] Sc·[0.25]
+15:30:42.983050 db@open opening
+15:30:42.983397 journal@recovery F·1
+15:30:42.985057 journal@recovery recovering @5
+15:30:42.991428 memdb@flush created L0@7 N·10 S·380B "Dat..ion,v13":"unc..own,v18"
+15:30:43.035515 version@stat F·[2] S·1KiB[1KiB] Sc·[0.50]
+15:30:43.050870 db@janitor F·4 G·0
+15:30:43.050904 db@open done T·67.845375ms
